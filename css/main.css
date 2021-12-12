@@ -35,7 +35,130 @@
     }
 }
 
+
+
+/* Desktop */
+
 @media only screen and (min-width: 601px) {
+
+    nav {
+        width: 100%;
+        background-color: #2b6ec5;
+        display: flex;
+        position: fixed;
+    }
+
+    .navul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navli {
+        list-style-type: none;
+    }
+
+    .nava {
+        text-decoration: none;
+        color: white;
+        margin: 1vh;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        padding-right: 2vh;
+        padding-left: 2vh;
+        border-radius: 25px;
+    }
+
+    .navavideos {
+        text-decoration: none;
+        color: black;
+        margin: 1vh;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        padding-right: 2vh;
+        padding-left: 2vh;
+        border-radius: 25px;
+        background-color: #f3f383;
+    }
+
+    .navavideos:hover {
+        animation: navahover 1s forwards;
+    }
+
+    .nava:hover {
+        animation: linkhover 1s forwards;
+    }
+
+    .logo {
+        padding-top: 1.5vh;
+        color: white;
+        padding-left: 140vh;
+    }
+
+    main {
+        padding-top: 12vh;
+    }
+
+    .realcontainer {
+        text-align: center;
+    }
+
+    .artlink {
+        text-decoration: none;
+        color: black;
+        margin: 1vh;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        padding-right: 2vh;
+        padding-left: 2vh;
+        border-radius: 25px;
+        background-color: salmon;
+    }
+
+    .artlink:hover {
+        animation: arthover .5s forwards;
+    }
+
+    .artdiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .artimg {
+        width: 150px;
+    }
+
+    .videolink {
+        text-decoration: none;
+        color: black;
+        margin: 1vh;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        padding-right: 2vh;
+        padding-left: 2vh;
+        border-radius: 25px;
+        background-color: salmon;
+    }
+
+    .videolink:hover {
+        animation: arthover .5s forwards;
+    }
+
+    .vids {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+}
+
+
+
+
+
+
+/* Mobile */
+
+@media only screen and (max-width: 600px) {
 
     nav {
         width: 100%;
