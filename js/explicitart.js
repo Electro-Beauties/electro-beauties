@@ -2,13 +2,23 @@ const imgs = ["/images/explicit/1 (","/images/explicit/1 (","/images/explicit/1 
 
 console.log(imgs.length);
 
+localStorage.getItem("age");
+
 let container = document.getElementById("container");
 
 let age = document.getElementById("age").value;
 
 let submit = document.getElementById("submit");
 
-if(submit.clicked == true) {
+if(localStorage.getItem("age") < 18) {
+    alert("WARNING! This is an explicit webpage. You are required to be over 18 years of age to view!");
+    
+    container.className = "hidden";
+}
+
+function Submit() {
+    localStorage.setItem("age", age);
+
     location.reload();
 }
 
