@@ -220,7 +220,7 @@
         width: 100%;
         background-color: #2b6ec5;
         display: flex;
-        position: fixed;
+        /* position: fixed; */
     }
 
     /* .homelink {
