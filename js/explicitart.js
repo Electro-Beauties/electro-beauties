@@ -6,8 +6,6 @@ localStorage.getItem("age");
 
 let container = document.getElementById("container");
 
-let age = document.getElementById("age").value;
-
 let submit = document.getElementById("submit");
 
 console.log(localStorage.getItem("age"));
@@ -26,6 +24,9 @@ else {
 }
 
 function Submit() {
+
+    let age = document.getElementById("age").value;
+
     localStorage.setItem("age", age);
 
     location.reload();
@@ -49,7 +50,7 @@ function Generate() {
 
     container.appendChild(link);
     link.appendChild(img);
-    console.log(count);
+    //console.log(count);
 }
 
 imgs.forEach(Generate);
