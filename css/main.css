@@ -52,4 +52,20 @@
         padding-left: 140vh;
     }
 
+    .artlink {
+        text-decoration: none;
+        color: black;
+        margin: 1vh;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        padding-right: 2vh;
+        padding-left: 2vh;
+        border-radius: 25px;
+        background-color: salmon;
+    }
+
+    .artlink:hover {
+        animation: linkhover 1s forwards;
+    }
+
 }
