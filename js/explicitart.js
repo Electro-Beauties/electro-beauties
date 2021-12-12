@@ -4,21 +4,26 @@ console.log(imgs.length);
 
 let container = document.getElementById("container");
 
-imgs.forEach(Generate);
-
 let count;
 
 count = 0;
 
 function Generate() {
 
-    let img = document.createElement("img");    
+    let img = document.createElement("img"); 
+    let link = document.createElement("a");
+    
+    img.className = "artimg";
 
     count++;
 
+    link.setAttribute("href", `/images/explicit/1 (${count}).jpg`);
     img.setAttribute("src", `/images/explicit/1 (${count}).jpg`);
 
-    container.appendChild(img);
+    container.appendChild(link);
+    link.appendChild(img);
     console.log(count);
 }
+
+imgs.forEach(Generate);
 
