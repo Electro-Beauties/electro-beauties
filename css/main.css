@@ -96,4 +96,20 @@
         width: 150px;
     }
 
+    .videolink {
+        text-decoration: none;
+        color: black;
+        margin: 1vh;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        padding-right: 2vh;
+        padding-left: 2vh;
+        border-radius: 25px;
+        background-color: salmon;
+    }
+
+    .videolink:hover {
+        animation: arthover .5s forwards;
+    }
+
 }
