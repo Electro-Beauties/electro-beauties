@@ -2,20 +2,6 @@ const imgs = ["/images/normals/1 (","/images/normals/1 (","/images/normals/1 (",
 
 let container = document.getElementById("container");
 
-let submit = document.getElementById("submit");
-let age = document.getElementById("age");
-let form = document.getElementById("form");
-
-function Submit() {
-
-    age = document.getElementById("age").value;
-
-
-    localStorage.setItem("age", age);
-
-    location.reload();
-}
-
 let count;
 
 count = 0;
