@@ -8,9 +8,9 @@ localStorage.getItem("bool");
 let container = document.getElementById("container");
 
 let submit = document.getElementById("submit");
-let age;
+let age = document.getElementById("age");
 
-console.log(localStorage.getItem("age"));
+console.log(localStorage.getItem("age") + " " + localStorage.getItem("bool"));
 
 container.style.visibility = "hidden";
 
