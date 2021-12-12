@@ -138,6 +138,10 @@
         padding-top: 12vh;
     }
 
+    .maindiv {
+        text-align: center;
+    }
+
     .realcontainer {
         text-align: center;
     }
