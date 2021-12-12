@@ -157,6 +157,10 @@
         text-align: center;
     }
 
+    .iframe {
+        margin: 1vh;
+    }
+
 }
 
 
@@ -278,6 +282,10 @@
 
     #container {
         text-align: center;
+    }
+
+    .iframe {
+        margin: 1vh;
     }
 
 }
