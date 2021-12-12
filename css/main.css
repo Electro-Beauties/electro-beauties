@@ -142,6 +142,10 @@
         text-align: center;
     }
 
+    .recentupload {
+        margin-top: 20vh;
+    }
+
     .realcontainer {
         text-align: center;
     }
@@ -219,22 +223,30 @@
         position: fixed;
     }
 
-    .homelink {
+    /* .homelink {
         visibility: hidden;
     }
 
     .logo {
         visibility: hidden;
+    } */
+
+    .recentupload {
+        margin-top: 20vh;
     }
 
-    .homelinkmobile {
+    .maindiv {
+        text-align: center;
+    }
+
+    /* .homelinkmobile {
         
     }
 
     .logomobile {
         padding-top: 1.5vh;
         color: white;
-    }
+    } */
 
     .navul {
         display: flex;
