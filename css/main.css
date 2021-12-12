@@ -291,7 +291,12 @@
     .logo {
         padding-top: 1.5vh;
         color: white;
-        padding-left: 140vh;
+        padding-left: 5vh;
+        padding-right: 5vh;
+    }
+
+    .homelink {
+        text-decoration: none;
     }
 
     main {
