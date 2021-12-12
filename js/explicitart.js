@@ -4,6 +4,14 @@ console.log(imgs.length);
 
 let container = document.getElementById("container");
 
+let age = document.getElementById("age").value;
+
+let submit = document.getElementById("submit");
+
+if(submit.clicked == true) {
+    location.reload();
+}
+
 let count;
 
 count = 0;
