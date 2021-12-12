@@ -35,6 +35,24 @@
     }
 }
 
+@keyframes homehover {
+    0% {
+
+    }
+
+    30% {
+        color: salmon;
+    }
+
+    60% {
+        color: #f3f383;
+    }
+
+    100% {
+        color: white;
+    }
+}
+
 
 
 /* Desktop */
@@ -59,6 +77,10 @@
 
     .homelink {
         text-decoration: none;
+    }
+
+    .homelink:hover {
+        animation: homehover 1s forwards;
     }
 
     .homelinkmobile {
@@ -105,6 +127,11 @@
         color: white;
         padding-left: 5vh;
         padding-right: 5vh;
+    }
+
+    .logo:hover {
+        animation: homehover .75s;
+        animation-iteration-count: infinite;
     }
 
     main {
