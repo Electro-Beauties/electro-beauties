@@ -57,6 +57,10 @@
         list-style-type: none;
     }
 
+    .homelink {
+        text-decoration: none;
+    }
+
     .nava {
         text-decoration: none;
         color: white;
