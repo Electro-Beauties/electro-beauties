@@ -3,6 +3,17 @@
     padding: 0px;
 }
 
+@keyframes linkhover {
+    0% {
+        color: white;
+    }
+
+    100% {
+        background-color: salmon;
+        color: black;
+    }
+}
+
 @media only screen and (min-width: 601px) {
 
     nav {
@@ -10,17 +21,25 @@
         background-color: #2b6ec5;
     }
 
+    .navul {
+        display: flex;
+        flex-direction: row;
+    }
+
     .navli {
         list-style-type: none;
-        display: flex;
-        flex-direction: column;
     }
 
     .nava {
         text-decoration: none;
         color: white;
-        margin: 2vh;
+        margin: 1vh;
         padding: 2vh;
+        border-radius: 25px;
+    }
+
+    .nava:hover {
+
     }
 
 }
