@@ -149,6 +149,10 @@
         flex-wrap: wrap;
     }
 
+    #container {
+        text-align: center;
+    }
+
 }
 
 
