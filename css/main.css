@@ -139,4 +139,9 @@
         animation: arthover .5s forwards;
     }
 
+    .vids {
+        display: flex;
+        justify-content: center;
+    }
+
 }
