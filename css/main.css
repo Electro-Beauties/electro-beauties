@@ -203,6 +203,8 @@
 
     .iframe {
         margin: 1vh;
+        width: 560px;
+        height: 315px;
     }
 
 }
@@ -360,6 +362,7 @@
 
     .iframe {
         margin: 1vh;
+        width: 300px;
     }
 
 }
