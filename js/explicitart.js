@@ -23,12 +23,10 @@ if(localStorage.getItem("age") >= 18) {
 else {
     
 
-    alert("WARNING! This is an normals webpage. You are required to be over 18 years of age to view!");
+    alert("WARNING! This is an explicit webpage. You are required to be over 18 years of age to view!");
     
     container.style.visibility = "hidden";
 
-    age.style.visibility = "hidden";
-    submit.style.visibility = "hidden";
 }
 
 function Submit() {
