@@ -3,12 +3,12 @@ const imgs = ["/images/explicit/1 (","/images/explicit/1 (","/images/explicit/1 
 //console.log(imgs.length);
 
 localStorage.getItem("age");
-localStorage.getItem("bool");
 
 let container = document.getElementById("container");
 
 let submit = document.getElementById("submit");
 let age = document.getElementById("age");
+let form = document.getElementById("form");
 
 console.log(localStorage.getItem("age") + " " + localStorage.getItem("bool"));
 
@@ -16,6 +16,9 @@ container.style.visibility = "hidden";
 
 if(localStorage.getItem("age") >= 18) {
     container.style.visibility = "visible";
+
+    form.style.visibility = "hidden";
+    
 }
 else {
     
@@ -23,22 +26,15 @@ else {
     alert("WARNING! This is an explicit webpage. You are required to be over 18 years of age to view!");
     
     container.style.visibility = "hidden";
-}
 
-if(localStorage.getItem("bool" == 1)) {
     age.style.visibility = "hidden";
     submit.style.visibility = "hidden";
-}
-else {
-    age.style.visibility = "visible";
-    submit.style.visibility = "visible";
 }
 
 function Submit() {
 
     age = document.getElementById("age").value;
 
-    localStorage.setItem("bool", 1);
 
     localStorage.setItem("age", age);
 
