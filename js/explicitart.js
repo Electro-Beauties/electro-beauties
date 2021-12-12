@@ -3,6 +3,7 @@ const imgs = ["/images/explicit/1 (","/images/explicit/1 (","/images/explicit/1 
 //console.log(imgs.length);
 
 localStorage.getItem("age");
+localStorage.getItem("bool");
 
 let container = document.getElementById("container");
 
@@ -23,9 +24,15 @@ else {
     container.style.visibility = "hidden";
 }
 
+if(localStorage.getItem("bool" == 1)) {
+    
+}
+
 function Submit() {
 
     let age = document.getElementById("age").value;
+
+    localStorage.setItem("bool", 1);
 
     localStorage.setItem("age", age);
 
