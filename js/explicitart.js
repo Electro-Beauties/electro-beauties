@@ -10,10 +10,17 @@ let age = document.getElementById("age").value;
 
 let submit = document.getElementById("submit");
 
-if(localStorage.getItem("age") < 18) {
+container.style.visibility = "hidden";
+
+if(localStorage.getItem("age") >= 18) {
+    container.style.visibility = "visible";
+}
+else {
+    
+
     alert("WARNING! This is an explicit webpage. You are required to be over 18 years of age to view!");
     
-    container.className = "hidden";
+    container.style.visibility = "hidden";
 }
 
 function Submit() {
