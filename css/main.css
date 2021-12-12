@@ -61,6 +61,14 @@
         text-decoration: none;
     }
 
+    .homelinkmobile {
+        visibility: hidden;
+    }
+
+    .logomobile {
+        visibility: hidden;
+    }
+
     .nava {
         text-decoration: none;
         color: white;
@@ -177,6 +185,23 @@
         background-color: #2b6ec5;
         display: flex;
         position: fixed;
+    }
+
+    .homelink {
+        visibility: hidden;
+    }
+
+    .logo {
+        visibility: hidden;
+    }
+
+    .homelinkmobile {
+        
+    }
+
+    .logomobile {
+        padding-top: 1.5vh;
+        color: white;
     }
 
     .navul {
