@@ -67,6 +67,10 @@
         padding-top: 12vh;
     }
 
+    .realcontainer {
+        text-align: center;
+    }
+
     .artlink {
         text-decoration: none;
         color: black;
