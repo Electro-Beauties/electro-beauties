@@ -8,6 +8,7 @@ localStorage.getItem("bool");
 let container = document.getElementById("container");
 
 let submit = document.getElementById("submit");
+let age;
 
 console.log(localStorage.getItem("age"));
 
@@ -25,12 +26,17 @@ else {
 }
 
 if(localStorage.getItem("bool" == 1)) {
-    
+    age.style.visibility = "hidden";
+    submit.style.visibility = "hidden";
+}
+else {
+    age.style.visibility = "visible";
+    submit.style.visibility = "visible";
 }
 
 function Submit() {
 
-    let age = document.getElementById("age").value;
+    age = document.getElementById("age").value;
 
     localStorage.setItem("bool", 1);
 
