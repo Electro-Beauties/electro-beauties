@@ -274,8 +274,8 @@
         text-decoration: none;
         color: black;
         margin: 1vh;
-        padding-top: 1vh;
-        padding-bottom: 1vh;
+        padding-top: 2vh;
+        padding-bottom: 0vh;
         padding-right: 2vh;
         padding-left: 2vh;
         border-radius: 25px;
@@ -328,6 +328,7 @@
     .artdiv {
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
     }
 
     .artimg {
