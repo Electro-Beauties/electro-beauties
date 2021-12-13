@@ -175,6 +175,10 @@
         width: 150px;
     }
 
+    .wallimg {
+        width: 300px;
+    }
+
     .videolink {
         text-decoration: none;
         color: black;
@@ -332,6 +336,10 @@
     }
 
     .artimg {
+        width: 150px;
+    }
+
+    .wallimg {
         width: 150px;
     }
 
