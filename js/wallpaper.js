@@ -1,5 +1,5 @@
 
-const wallpaperArray = ["/images/wallpaper/1 (","/images/wallpaper/1 ("]
+const imgs = ["/images/wallpaper/1 (","/images/wallpaper/1 (","/images/wallpaper/1 ("];
 
 let container = document.getElementById("container");
 
@@ -24,4 +24,4 @@ function Generate() {
     //console.log(count);
 }
 
-wallpaperArray.forEach(Generate);
+imgs.forEach(Generate);
