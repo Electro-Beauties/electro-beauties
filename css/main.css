@@ -13,6 +13,22 @@
     }
 }
 
+@keyframes warning {
+
+    0% {
+        color: red;
+    }
+
+    50% {
+        color: white;
+    }
+
+    100% {
+        color: red;
+    }
+    
+}
+
 @keyframes navahover {
     0% {
 
@@ -132,6 +148,13 @@
     .logo:hover {
         animation: homehover .75s;
         animation-iteration-count: infinite;
+    }
+
+    .warning {
+        color: white;
+        padding-top: 2.1vh;
+        padding-left: 27vh;
+        animation: warning .75s infinite;
     }
 
     main {
