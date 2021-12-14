@@ -309,6 +309,12 @@
         background-color: #f3f383;
     }
 
+    .warning {
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+    }
+
     .navavideos:hover {
         animation: navahover 1s forwards;
     }
