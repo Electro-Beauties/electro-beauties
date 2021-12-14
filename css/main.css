@@ -9,7 +9,7 @@
     }
 
     100% {
-        background-color: salmon;
+        background-color: #f32e18;
     }
 }
 
@@ -41,7 +41,7 @@
     }
 
     30% {
-        color: salmon;
+        color: #f32e18;
     }
 
     60% {
@@ -159,7 +159,7 @@
         padding-right: 2vh;
         padding-left: 2vh;
         border-radius: 25px;
-        background-color: salmon;
+        background-color: #f32e18;
     }
 
     .artlink:hover {
@@ -188,7 +188,7 @@
         padding-right: 2vh;
         padding-left: 2vh;
         border-radius: 25px;
-        background-color: salmon;
+        background-color: #f53823;
     }
 
     .videolink:hover {
@@ -322,7 +322,7 @@
         padding-right: 2vh;
         padding-left: 2vh;
         border-radius: 25px;
-        background-color: salmon;
+        background-color: #f32e18;
     }
 
     .artlink:hover {
@@ -352,7 +352,7 @@
         padding-right: 2vh;
         padding-left: 2vh;
         border-radius: 25px;
-        background-color: salmon;
+        background-color: #f32e18;
     }
 
     .videolink:hover {
