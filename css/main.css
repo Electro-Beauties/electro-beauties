@@ -202,6 +202,28 @@
         width: 400px;
     }
 
+    .conntainer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .weeklycontainer {
+        display: flex;
+        justify-self: center;
+        flex-direction: column;
+    }
+
+    .weekly {
+        text-align: center;
+        margin-top: 10vh;
+        box-shadow: black 2px 2px 5px;
+        width: 150vh;
+    }
+
+    .weeklyimg {
+        width: 525px;
+    }
+
     .videolink {
         text-decoration: none;
         color: black;
@@ -295,6 +317,28 @@
         padding-right: 2vh;
         padding-left: 2vh;
         border-radius: 25px;
+    }
+
+    .conntainer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .weeklycontainer {
+        display: flex;
+        justify-self: center;
+        flex-direction: column;
+    }
+
+    .weekly {
+        text-align: center;
+        margin-top: 10vh;
+        box-shadow: black 2px 2px 5px;
+        width: 150vh;
+    }
+
+    .weeklyimg {
+        width: 200px;
     }
 
     .navavideos {
