@@ -75,7 +75,6 @@
     100% {
         opacity: 1;
         filter: saturate(100%);
-
     }
 }
 
@@ -211,7 +210,7 @@
 
     .wallimg {
         z-index: -3;
-        width: 500px;
+        width: 350px;
         opacity: 0.5;
         filter: saturate(0%);
     }
