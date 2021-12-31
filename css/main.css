@@ -69,6 +69,16 @@
     }
 }
 
+@keyframes hoverimg {
+    0% {
+    }
+    100% {
+        opacity: 1;
+        filter: saturate(100%);
+
+    }
+}
+
 
 
 /* Desktop */
@@ -80,6 +90,7 @@
         background-color: #2b6ec5;
         display: flex;
         position: fixed;
+        z-index: 1;
     }
 
     .navul {
@@ -199,7 +210,14 @@
     }
 
     .wallimg {
-        width: 400px;
+        z-index: -3;
+        width: 500px;
+        opacity: 0.5;
+        filter: saturate(0%);
+    }
+
+    .wallimg:hover {
+        animation: hoverimg 2s forwards;
     }
 
     .conntainer {
