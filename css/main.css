@@ -205,7 +205,14 @@
     }
 
     .artimg {
-        width: 400px;
+        z-index: -3;
+        width: 350px;
+        opacity: 0.5;
+        filter: saturate(0%);   
+    }
+
+    .artimg:hover {
+        animation: hoverimg 2s forwards;
     }
 
     .wallimg {
