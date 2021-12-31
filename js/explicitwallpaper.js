@@ -54,6 +54,7 @@ function Generate() {
 
     link.setAttribute("href", `/images/explicitwallpaper/1 (${count}).jpg`);
     img.setAttribute("src", `/images/explicitwallpaper/1 (${count}).jpg`);
+    link.setAttribute("target", "_blank");
 
     container.appendChild(link);
     link.appendChild(img);
