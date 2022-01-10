@@ -298,6 +298,11 @@
         /* position: fixed; */
     }
 
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
     /* .homelink {
         visibility: hidden;
     }
