@@ -300,6 +300,7 @@
         background-color: #2b6ec5;
         display: flex;
         /* position: fixed; */
+        overflow-x: hidden;
     }
 
     body {
@@ -316,10 +317,12 @@
 
     .recentupload {
         margin-top: 20vh;
+        overflow-x: hidden;
     }
 
     .maindiv {
         text-align: center;
+        overflow-x: hidden;
     }
 
     /* .homelinkmobile {
@@ -334,10 +337,12 @@
     .navul {
         display: flex;
         flex-direction: row;
+        overflow-x: hidden;
     }
 
     .navli {
         list-style-type: none;
+        overflow-x: hidden;
     }
 
     .nava {
@@ -349,17 +354,20 @@
         padding-right: 2vh;
         padding-left: 2vh;
         border-radius: 25px;
+        overflow-x: hidden;
     }
 
     .conntainer {
         display: flex;
         justify-content: center;
+        overflow-x: hidden;
     }
 
     .weeklycontainer {
         display: flex;
         justify-self: center;
         flex-direction: column;
+        overflow-x: hidden;
     }
 
     .weekly {
@@ -367,10 +375,12 @@
         margin-top: 10vh;
         box-shadow: black 2px 2px 5px;
         width: 100%;
+        overflow-x: hidden;
     }
 
     .weeklyimg {
         width: 250px;
+        overflow-x: hidden;
     }
 
     .navavideos {
@@ -383,20 +393,24 @@
         padding-left: 2vh;
         border-radius: 25px;
         background-color: #f3f383;
+        overflow-x: hidden;
     }
 
     .warning {
         visibility: hidden;
         width: 0px;
         height: 0px;
+        overflow-x: hidden;
     }
 
     .navavideos:hover {
         animation: navahover 1s forwards;
+        overflow-x: hidden;
     }
 
     .nava:hover {
         animation: linkhover 1s forwards;
+        overflow-x: hidden;
     }
 
     .logo {
@@ -404,18 +418,22 @@
         color: white;
         padding-left: 5vh;
         padding-right: 5vh;
+        overflow-x: hidden;
     }
 
     .homelink {
         text-decoration: none;
+        overflow-x: hidden;
     }
 
     main {
         padding-top: 12vh;
+        overflow-x: hidden;
     }
 
     .realcontainer {
         text-align: center;
+        overflow-x: hidden;
     }
 
     .artlink {
@@ -428,24 +446,29 @@
         padding-left: 2vh;
         border-radius: 25px;
         background-color: #f32e18;
+        overflow-x: hidden;
     }
 
     .artlink:hover {
         animation: arthover .5s forwards;
+        overflow-x: hidden;
     }
 
     .artdiv {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        overflow-x: hidden;
     }
 
     .artimg {
         width: 150px;
+        overflow-x: hidden;
     }
 
     .wallimg {
         width: 150px;
+        overflow-x: hidden;
     }
 
     /* .imgcon {
@@ -462,16 +485,19 @@
         padding-left: 2vh;
         border-radius: 25px;
         background-color: #f32e18;
+        overflow-x: hidden;
     }
 
     .videolink:hover {
         animation: arthover .5s forwards;
+        overflow-x: hidden;
     }
 
     .vids {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        overflow-x: hidden;
     }
 
     #container {
@@ -479,11 +505,13 @@
         justify-content: center;
         flex-wrap: wrap;
         overflow-x: hidden;
+        overflow-x: hidden;
     }
 
     .iframe {
         margin: 1vh;
         width: 300px;
+        overflow-x: hidden;
     }
 
 }
