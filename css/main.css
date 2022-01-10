@@ -444,6 +444,10 @@
         width: 150px;
     }
 
+    .imgcon {
+        width: 100%;
+    }
+
     .videolink {
         text-decoration: none;
         color: black;

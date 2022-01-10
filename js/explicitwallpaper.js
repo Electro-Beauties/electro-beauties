@@ -6,6 +6,8 @@ localStorage.getItem("age");
 
 let container = document.getElementById("container");
 
+container.className = "imgcon";
+
 let submit = document.getElementById("submit");
 let age = document.getElementById("age");
 let form = document.getElementById("form");

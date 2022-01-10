@@ -2,6 +2,8 @@ const imgs = ["/images/normals/1 (","/images/normals/1 (","/images/normals/1 (",
 
 let container = document.getElementById("container");
 
+container.className = "imgcon";
+
 let count;
 
 count = 0;

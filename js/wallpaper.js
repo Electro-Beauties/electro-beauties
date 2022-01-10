@@ -3,6 +3,8 @@ const imgs = ["/images/wallpaper/1 (","/images/wallpaper/1 (","/images/wallpaper
 
 let container = document.getElementById("container");
 
+container.className = "imgcon";
+
 let count;
 
 count = 0;
