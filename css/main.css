@@ -355,6 +355,7 @@
         padding-left: 2vh;
         border-radius: 25px;
         overflow-x: hidden;
+        width: 5vh;
     }
 
     .conntainer {
