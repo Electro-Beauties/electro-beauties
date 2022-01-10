@@ -445,7 +445,7 @@
     }
 
     /* .imgcon {
-        width: 50vh;
+        width: 0vh;
     } */
 
     .videolink {
@@ -471,7 +471,9 @@
     }
 
     #container {
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
     .iframe {
