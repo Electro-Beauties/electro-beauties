@@ -195,6 +195,16 @@
         background-color: #f32e18;
     }
 
+    .searchImgClass {
+        z-index: -3;
+        width: 100px;
+        opacity: 0.5;
+        filter: saturate(0%);
+        padding: 0px;
+        margin: 0px;
+        text-decoration: none;
+    }
+
     .artlink:hover {
         animation: arthover .5s forwards;
     }

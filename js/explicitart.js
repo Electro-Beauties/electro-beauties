@@ -12,6 +12,12 @@ let submit = document.getElementById("submit");
 let age = document.getElementById("age");
 let form = document.getElementById("form");
 
+let img;
+let link;
+let pAlt;
+
+let Bool = true;
+
 //console.log(localStorage.getItem("age") + " " + localStorage.getItem("bool"));
 
 container.style.visibility = "hidden";
@@ -47,9 +53,9 @@ count = 0;
 
 function Generate() {
 
-    let img = document.createElement("img"); 
-    let link = document.createElement("a");
-    let pAlt = document.createElement("p");
+    img = document.createElement("img"); 
+    link = document.createElement("a");
+    pAlt = document.createElement("p");
     
     img.className = "artimg";
     pAlt.className = "pAlt";
@@ -69,4 +75,8 @@ function Generate() {
 }
 
 imgs.forEach(Generate);
+
+
+
+
 
