@@ -49,15 +49,20 @@ function Generate() {
 
     let img = document.createElement("img"); 
     let link = document.createElement("a");
+    let pAlt = document.createElement("p");
     
     img.className = "artimg";
+    pAlt.className = "pAlt";
+    link.ClassName = "linkimg";
 
     count++;
 
     link.setAttribute("href", `/images/explicit/1 (${count}).jpg`);
     img.setAttribute("src", `/images/explicit/1 (${count}).jpg`);
     link.setAttribute("target", "_blank");
+    pAlt.textContent = "Image Number: " + count;
 
+    link.appendChild(pAlt);
     container.appendChild(link);
     link.appendChild(img);
     //console.log(count);

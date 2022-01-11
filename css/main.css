@@ -208,7 +208,33 @@
         z-index: -3;
         width: 350px;
         opacity: 0.5;
-        filter: saturate(0%);   
+        filter: saturate(0%);
+        padding: 0px;
+        margin: 0px;
+        text-decoration: none;
+    }
+
+    .imgcon {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0px;
+        padding: 0px;
+        text-decoration: none;
+    }
+
+    .pAlt {
+        width: 30vh;
+        padding: 0px;
+        margin: 0px;
+        margin-left: 6vh;
+        /* text-decoration: none; */
+        color: black;
+        text-decoration: none;
+    }
+
+    .linkimg {
+        text-decoration: none;
     }
 
     .artimg:hover {
@@ -475,6 +501,20 @@
     /* .imgcon {
         width: 0vh;
     } */
+
+    .pAlt {
+        width: 30vh;
+        padding: 0px;
+        margin: 0px;
+        margin-left: 7vh;
+        /* text-decoration: none; */
+        color: black;
+        text-decoration: none;
+    }
+
+    .linkimg {
+        text-decoration: none;
+    }
 
     .videolink {
         text-decoration: none;
