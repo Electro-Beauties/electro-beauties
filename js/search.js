@@ -11,6 +11,19 @@ function SearchExplicitArt() {
 
 }
 
+function SearchGifs() {
+
+    let Searchthing = document.getElementById("search").value;
+    let link = document.getElementById("liink");
+    let img = document.getElementById("iimg");
+
+    link.setAttribute("href", `/images/gifs/1 (${Searchthing}).gif`);
+    img.setAttribute("src", `/images/gifs/1 (${Searchthing}).gif`);
+    img.setAttribute("width", "400px");
+    img.ClassName = "searchImgClass";
+
+}
+
 function SearchArt() {
 
     let Searchthing = document.getElementById("search").value;
