@@ -5,9 +5,13 @@ let Home;
 let Videos;
 let Gallery;
 
+let iconImg;
+
 function Hamburger() {
 
     hamBTN = document.getElementById("hamBTN");
+
+    iconImg = document.getElementById("iconimg");
 
     let nav = document.getElementById("navid");
 
@@ -30,13 +34,15 @@ function Hamburger() {
 
     hamBTN.setAttribute("onclick", "exit()");
 
-
+    iconImg.setAttribute("src", "/images/icons/close-yo-mouth.png");
 
 }
 
 function exit() {
 
     hamBTN = document.getElementById("hamBTN");
+
+    iconImg = document.getElementById("iconimg");
 
     let nav = document.getElementById("navid");
 
@@ -58,5 +64,7 @@ function exit() {
     nav.removeChild(Gallery);
 
     hamBTN.setAttribute("onclick", "Hamburger()");
+
+    iconImg.setAttribute("src", "/images/icons/ham-and-cheese.png");
 
 }
