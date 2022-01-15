@@ -48,6 +48,7 @@
     100% {
         background-color: #6f54b8;
         color: white;
+        border-radius: 0px;
     }
 }
 
@@ -75,6 +76,8 @@
     100% {
         opacity: 1;
         filter: saturate(100%);
+        border-radius: 0px;
+        
     }
 }
 
@@ -229,6 +232,7 @@
         padding: 0px;
         margin: 0px;
         text-decoration: none;
+        border-radius: 75px;
     }
 
     .imgcon {
@@ -265,6 +269,8 @@
         object-fit: cover;
         opacity: 1;
         filter: saturate(0%);
+        border-radius: 75px;
+        margin: 5px;
     }
 
     .wallimg:hover {
@@ -355,6 +361,7 @@
 
     .navmobile {
         text-align: center;
+        position: fixed;
     }
 
     body {
