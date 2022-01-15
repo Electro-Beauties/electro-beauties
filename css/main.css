@@ -504,12 +504,14 @@
 
     .artimg {
         width: 150px;
+        height: 150px;
         overflow-x: hidden;
         object-fit: cover;
     }
 
     .wallimg {
         width: 150px;
+        height: 150px;
         overflow-x: hidden;
         object-fit: cover;
     }
