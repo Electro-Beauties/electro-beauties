@@ -27,17 +27,16 @@ function Hamburger() {
     Videos.textContent = "Videos";
     Gallery.textContent = "Gallery";
 
-    Home.className="mobilelinks";
+    // theDiv.className="mobilelinks";
     Videos.className="mobilelinks";
     Gallery.className="mobilelinks";
 
-    Home.setAttribute("href", "/index.html");
+    theDiv.setAttribute("href", "/index.html");
     Videos.setAttribute("href", "/html/videos.html");
     Gallery.setAttribute("href", "/html/gallery.html");
 
 
     nav.appendChild(theDiv);
-    nav.appendChild(Home);
     nav.appendChild(Videos);
     nav.appendChild(Gallery);
 
@@ -68,7 +67,6 @@ function exit() {
     Gallery.textContent = "Gallery";
 
     nav.removeChild(theDiv);
-    nav.removeChild(Home);
     nav.removeChild(Videos);
     nav.removeChild(Gallery);
 
