@@ -101,6 +101,11 @@
         list-style-type: none;
     }
 
+    .navmobile {
+        visibility: hidden;
+        height: 0px;
+    }
+
     .homelink {
         text-decoration: none;
     }
@@ -341,6 +346,15 @@
         display: flex;
         /* position: fixed; */
         overflow-x: hidden;
+    }
+
+    .navdesktop {
+        visibility: hidden;
+        height: 0px;
+    }
+
+    .navmobile {
+        text-align: center;
     }
 
     body {
