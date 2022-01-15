@@ -27,6 +27,15 @@ function Hamburger() {
     Videos.textContent = "Videos";
     Gallery.textContent = "Gallery";
 
+    Home.className="mobilelinks";
+    Videos.className="mobilelinks";
+    Gallery.className="mobilelinks";
+
+    Home.setAttribute("href", "/index.html");
+    Videos.setAttribute("href", "/html/videos.html");
+    Gallery.setAttribute("href", "/html/gallery.html");
+
+
     nav.appendChild(theDiv);
     nav.appendChild(Home);
     nav.appendChild(Videos);

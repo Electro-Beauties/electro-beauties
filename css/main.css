@@ -372,6 +372,14 @@
         font-size: 1.2rem;
     }
 
+    .mobilelinks {
+        color: black;
+        text-decoration: none;
+        margin: 2px;
+        border: 1px solid black;
+        border-radius: 25px;
+    }
+
     .hamicon {
         width: 20px;
         visibility: visible;
