@@ -77,7 +77,6 @@
         opacity: 1;
         filter: saturate(100%);
         border-radius: 0px;
-        
     }
 }
 
@@ -362,6 +361,24 @@
     .navmobile {
         text-align: center;
         position: fixed;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .theDiv {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        font-size: 1.2rem;
+    }
+
+    .hamicon {
+        width: 20px;
+        visibility: visible;
+    }
+
+    .hambtn {
+        visibility: hidden;
     }
 
     body {
