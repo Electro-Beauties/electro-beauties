@@ -4,6 +4,10 @@ let container = document.getElementById("container");
 
 container.className = "imgcon";
 
+let pTotal = document.getElementById("imgtotal");
+
+pTotal.textContent = "Number of Images: " + imgs.length;
+
 let count;
 
 count = 0;

@@ -216,7 +216,9 @@
 
     .artimg {
         z-index: -3;
-        width: 350px;
+        width: 320px;
+        height: 320px;
+        object-fit: cover;
         opacity: 0.5;
         filter: saturate(0%);
         padding: 0px;
@@ -253,8 +255,10 @@
 
     .wallimg {
         z-index: -3;
-        width: 350px;
-        opacity: 0.5;
+        width: 320px;
+        height: 320px;
+        object-fit: cover;
+        opacity: 1;
         filter: saturate(0%);
     }
 
@@ -501,11 +505,13 @@
     .artimg {
         width: 150px;
         overflow-x: hidden;
+        object-fit: cover;
     }
 
     .wallimg {
         width: 150px;
         overflow-x: hidden;
+        object-fit: cover;
     }
 
     /* .imgcon {

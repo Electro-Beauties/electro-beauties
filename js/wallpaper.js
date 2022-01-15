@@ -3,6 +3,10 @@ const imgs = ["","","","","","","","","","","","","","","","","","","","","","",
 
 let container = document.getElementById("container");
 
+let pTotal = document.getElementById("imgtotal");
+
+pTotal.textContent = "Number of Images: " + imgs.length;
+
 container.className = "imgcon";
 
 let count;

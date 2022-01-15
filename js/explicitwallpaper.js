@@ -12,6 +12,10 @@ let submit = document.getElementById("submit");
 let age = document.getElementById("age");
 let form = document.getElementById("form");
 
+let pTotal = document.getElementById("imgtotal");
+
+pTotal.textContent = "Number of Images: " + imgs.length;
+
 //console.log(localStorage.getItem("age") + " " + localStorage.getItem("bool"));
 
 container.style.visibility = "hidden";
