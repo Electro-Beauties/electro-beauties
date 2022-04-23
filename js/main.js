@@ -63,7 +63,7 @@ function exit() {
 
     theDiv.className = "theDiv";
 
-    theDiv.textContent = "Electro Beauties"
+    theDiv.textContent = "Celixa Girls"
     Home.textContent = "Home";
     Videos.textContent = "Videos";
     Gallery.textContent = "Gallery";
