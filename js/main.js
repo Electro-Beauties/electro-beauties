@@ -7,6 +7,8 @@ let Gallery;
 
 let iconImg;
 
+randomFavicon();
+
 function Hamburger() {
 
     hamBTN = document.getElementById("hamBTN");
@@ -73,5 +75,15 @@ function exit() {
     hamBTN.setAttribute("onclick", "Hamburger()");
 
     iconImg.setAttribute("src", "/images/icons/ham-and-cheese.png");
+
+}
+
+function randomFavicon() {
+
+    let favicon = document.getElementById("favicon");
+
+    let ranNum = Math.floor((Math.random() * 1865) + 1);
+
+    favicon.setAttribute("href", `/images/normals/1 (${ranNum}).jpg`)
 
 }
