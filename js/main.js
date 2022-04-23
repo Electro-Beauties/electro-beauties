@@ -8,6 +8,7 @@ let Gallery;
 let iconImg;
 
 randomFavicon();
+dayOfWeek();
 
 function Hamburger() {
 
@@ -87,3 +88,43 @@ function randomFavicon() {
     favicon.setAttribute("href", `/images/normals/1 (${ranNum}).jpg`)
 
 }
+
+// function dayOfWeek() {
+
+    
+
+//     let ranNum;
+//     let ranNumWallpaper;
+
+//     const d = new Date();
+//     let day = d.getDay();
+
+//     let currentDate = new Date();
+//     let time = currentDate.getHours() + ":" + currentDate.getMinutes();
+
+//     if(day == 5 && time == "23:37") {
+
+//         let art = document.getElementById("art");
+//         let irl = document.getElementById("irl");
+
+//         let artlink = document.getElementById("artlink");
+//         let irllink = document.getElementById("irllink");
+
+//         ranNum = Math.floor((Math.random() * 1865) + 1);
+//         ranNumWallpaper = Math.floor((Math.random() * 279) + 1);
+
+//         art.setAttribute("src", `/images/normals/1 (${ranNum}).jpg`);
+//         irl.setAttribute("src", `/images/wallpaper/1 (${ranNumWallpaper}).jpg`);
+
+//         artlink.setAttribute("href", `/images/normals/1 (${ranNum}).jpg`);
+//         irllink.setAttribute("href", `/images/wallpaper/1 (${ranNumWallpaper}).jpg`);
+
+//     }
+//     else {
+        
+//     }
+
+
+//     console.log(time);
+
+// }
