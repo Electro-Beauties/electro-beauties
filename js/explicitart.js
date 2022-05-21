@@ -68,7 +68,7 @@ function Generate() {
     count++;
 
     link.setAttribute("href", `/images/explicit/1 (${count}).jpg`);
-    img.setAttribute("src", `/images/explicit/1 (${count}).jpg`);
+    img.setAttribute("src", `/images/icons-explicit/1 (${count}).jpg`);
     link.setAttribute("target", "_blank");
     pAlt.textContent = "Image Number: " + count;
 
