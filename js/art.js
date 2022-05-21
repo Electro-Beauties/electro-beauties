@@ -23,7 +23,7 @@ function Generate() {
     count++;
 
     link.setAttribute("href", `/images/normals/1 (${count}).jpg`);
-    img.setAttribute("src", `/images/normals/1 (${count}).jpg`);
+    img.setAttribute("src", `/images/icons-normals/1 (${count}).jpg`);
     link.setAttribute("target", "_blank");
     pAlt.textContent = "Image Number: " + count;
 

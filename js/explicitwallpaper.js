@@ -60,7 +60,7 @@ function Generate() {
     count++;
 
     link.setAttribute("href", `/images/explicitwallpaper/1 (${count}).jpg`);
-    img.setAttribute("src", `/images/explicitwallpaper/1 (${count}).jpg`);
+    img.setAttribute("src", `/images/icons-explicitwallpaper/1 (${count}).jpg`);
     link.setAttribute("target", "_blank");
     pAlt.textContent = "Image Number: " + count;
 
