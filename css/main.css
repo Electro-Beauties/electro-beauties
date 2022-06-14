@@ -473,9 +473,13 @@
     }
 
     .celebimgs {
+        height: 250px;
+    }
+
+    .artdivceleb {
         display: flex;
         flex-wrap: wrap;
-        height: 250px;
+        justify-content: center;
     }
 
     .navavideos {
