@@ -474,6 +474,8 @@
 
     .celebimgs {
         height: 250px;
+        border: 2px grey solid;
+        background-color: black;
     }
 
     .artdivceleb {
