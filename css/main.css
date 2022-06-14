@@ -475,7 +475,7 @@
     .celebimgs {
         display: flex;
         flex-wrap: wrap;
-        height: 200px;
+        height: 250px;
     }
 
     .navavideos {
