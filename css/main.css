@@ -473,7 +473,7 @@
     }
 
     .celebimgs {
-        height: 225px;
+        width: 250px;
         border: 2px grey solid;
         background-color: black;
     }
