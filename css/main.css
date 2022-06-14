@@ -472,6 +472,10 @@
         overflow-x: hidden;
     }
 
+    .celebimgs {
+        width: 250px;
+    }
+
     .navavideos {
         text-decoration: none;
         color: black;
