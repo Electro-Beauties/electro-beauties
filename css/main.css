@@ -473,9 +473,10 @@
     }
 
     .celebimgs {
-        width: 250px;
+        width: 225px;
         border: 2px grey solid;
         background-color: black;
+        box-shadow: 2px 2px 5px black;
     }
 
     .artdivceleb {
