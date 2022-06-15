@@ -74,10 +74,12 @@ function exit() {
     Home.textContent = "Home";
     Videos.textContent = "Videos";
     Gallery.textContent = "Gallery";
+    Beauty.textContent = "Beauty Rankings";
 
     nav.removeChild(theDiv);
     nav.removeChild(Videos);
     nav.removeChild(Gallery);
+    nav.removeChild(Beauty);
 
     hamBTN.setAttribute("onclick", "Hamburger()");
 
