@@ -473,7 +473,9 @@
     }
 
     .celebimgs {
-        width: 225px;
+        width: 320px;
+        height: 320px;
+        object-fit: cover;
         border: 2px grey solid;
         background-color: black;
         box-shadow: 2px 2px 5px black;
