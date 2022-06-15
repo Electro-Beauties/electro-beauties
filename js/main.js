@@ -23,7 +23,7 @@ function Hamburger() {
     Home = document.createElement("a");
     Videos = document.createElement("a");
     Gallery = document.createElement("a");
-    Beauty = document.creatrElement("a");
+    Beauty = document.createElement("a");
 
     theDiv.className = "theDiv";
 
