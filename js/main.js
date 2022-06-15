@@ -4,6 +4,7 @@ let theDiv;
 let Home;
 let Videos;
 let Gallery;
+let Beauty;
 
 let iconImg;
 
@@ -22,6 +23,7 @@ function Hamburger() {
     Home = document.createElement("a");
     Videos = document.createElement("a");
     Gallery = document.createElement("a");
+    Beauty = document.creatrElement("a");
 
     theDiv.className = "theDiv";
 
@@ -29,19 +31,23 @@ function Hamburger() {
     Home.textContent = "Home";
     Videos.textContent = "Videos";
     Gallery.textContent = "Gallery";
+    Beauty.textContent = "Beauty Rankings";
 
     // theDiv.className="mobilelinks";
     Videos.className="mobilelinks";
     Gallery.className="mobilelinks";
+    Beauty.className="mobilelinks";
 
     theDiv.setAttribute("href", "/index.html");
     Videos.setAttribute("href", "/html/videos.html");
     Gallery.setAttribute("href", "/html/gallery.html");
+    Beauty.setAttribute("href", "/html/beauty-rankings.html");
 
 
     nav.appendChild(theDiv);
     nav.appendChild(Videos);
     nav.appendChild(Gallery);
+    nav.appendChild(Beauty);
 
     hamBTN.setAttribute("onclick", "exit()");
 
