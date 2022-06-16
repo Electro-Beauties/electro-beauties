@@ -73,7 +73,7 @@ function Generate() {
     link.setAttribute("href", `/images/States/${count}.jpg`);
     img.setAttribute("src", `/images/States/${count}.jpg`);
     link.setAttribute("target", "_blank");
-    pAlt.textContent = "State: " + count;
+    pAlt.textContent = "" + `states[${count}]:` + count;
 
     link.appendChild(pAlt);
     container.appendChild(link);
