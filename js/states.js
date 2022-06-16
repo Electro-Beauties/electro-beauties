@@ -1,4 +1,7 @@
-const imgs = ["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",];
+const imgs = ["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""];
+
+const states = ["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""];
+
 
 console.log(imgs.length);
 
@@ -12,9 +15,9 @@ let submit = document.getElementById("submit");
 let age = document.getElementById("age");
 let form = document.getElementById("form");
 
-let pTotal = document.getElementById("imgtotal");
+//let pTotal = document.getElementById("imgtotal");
 
-pTotal.textContent = "Number of Gifs: " + imgs.length;
+//pTotal.textContent = "Number of Gifs: " + imgs.length;
 
 let img;
 let link;
@@ -70,7 +73,7 @@ function Generate() {
     link.setAttribute("href", `/images/States/${count}.jpg`);
     img.setAttribute("src", `/images/States/${count}.jpg`);
     link.setAttribute("target", "_blank");
-    pAlt.textContent = "Gif Number: " + count;
+    pAlt.textContent = "State: " + count;
 
     link.appendChild(pAlt);
     container.appendChild(link);
