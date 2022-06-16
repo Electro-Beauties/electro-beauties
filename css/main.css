@@ -481,6 +481,15 @@
         box-shadow: 2px 2px 5px black;
     }
 
+    .hottestul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hottestliv{
+        
+    }
+
     .artdivceleb {
         display: flex;
         flex-wrap: wrap;
