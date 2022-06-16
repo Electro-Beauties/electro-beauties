@@ -57,6 +57,7 @@ function Submit() {
 let count;
 
 count = 0;
+count1 = 1;
 
 function Generate() {
 
@@ -69,11 +70,12 @@ function Generate() {
     link.ClassName = "linkimg";
 
     count++;
+    count1++;
 
     link.setAttribute("href", `/images/States/${count}.jpg`);
     img.setAttribute("src", `/images/States/${count}.jpg`);
     link.setAttribute("target", "_blank");
-    pAlt.textContent = "State: " + states[count] + ": " + count;
+    pAlt.textContent = "State: " + states[count] + ": " + count1;
 
     link.appendChild(pAlt);
     container.appendChild(link);
