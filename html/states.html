@@ -15,12 +15,19 @@
 
         <header>
             <nav class="navdesktop">
-                <a class="homelink" href="https://celixagirls.netlify.app/"><h1 class="logo">Celica Girls</h1></a>
+                <a class="homelink" href="https://celixagirls.netlify.app/"><h1 class="logo">Celixa Girls</h1></a>
                 <ul class="navul">
                     <a class="nava" href="/html/videos.html"><li class="navli">Videos</li></a>
                     <a class="navavideos" href="/html/gallery.html"><li class="navli">Gallery</li></a>
                     <a class="nava" href="/html/beauty-rankings.html"><li class="navli">Beauty Rankings</li></a>
+                    <p class="warning">WARNING! This webpage is only for 18+</p>
                 </ul>
+
+                <form>
+                    <Label>Search</Label>
+                    <input type="number" id="search" placeholder="Search" required />
+                </form>
+                <button onclick="SearchExplicitArt()">Search</button>
 
                 <!-- <a class="homelinkmobile" href="/index.html"><h1 class="logomobile">Celixa Girls</h1></a> -->
             </nav>
@@ -33,14 +40,28 @@
         </header>
 
         <main>
-            
-         <ul id="statesul" class="hottestul">
+            <div id="form">
+                <form class="form">
+                    <label>What is your age?</label>
+                    <input class="input" id="age" type="number" name="age" placeholder="18" value="" />
+                </form>
 
-            <h2>USA State Rankings for the Hottest Women, 2022</h2>
+                <button onclick="Submit()" id="submit">Submit</button>
 
-            
-         </ul>
+            </div>
 
+            <div class="realcontainer">
+
+                <p id="imgtotal"></p>
+
+            <div id="SearchDiv">
+                <a target="_blank" id="liink"><img id="iimg" /></a>
+            </div>
+
+            <div id="container">
+
+            </div>
+            </div>
         </main>
 
         <footer>
@@ -49,5 +70,6 @@
         
         <script src="/js/main.js"></script>
         <script src="/js/states.js"></script>
+        <script src="/js/search.js"></script>
     </body>
 </html>
