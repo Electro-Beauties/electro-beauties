@@ -1,6 +1,6 @@
 const imgs = ["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""];
 
-const states = ["Illinois","Colorado","Florida","California","Hawaii","Texas","Pennsylvania","Louisiana","Massachusetts","New York","Washington","New Mexico","Nevada","South Carolina","Tennessee","Mississippi","Connecticut","Georgia","Arizona","New Hampshire","Oregon","North Carolina","Iowa","Wisconsin","Indiana","South Dakota","Maryland","Idaho","Montana","North Dakota","Wyoming","Virginia","Missouri","Ohio","Delaware","Arkansas","Minnesota","Rhode Island","Vermont","Kansas","Kentucky","Michigan","Oklahoma","Utah","West Virginia","Maine","Alabama","New Jersey","Alaska","Nebraska"];
+const states = ["","Illinois","Colorado","Florida","California","Hawaii","Texas","Pennsylvania","Louisiana","Massachusetts","New York","Washington","New Mexico","Nevada","South Carolina","Tennessee","Mississippi","Connecticut","Georgia","Arizona","New Hampshire","Oregon","North Carolina","Iowa","Wisconsin","Indiana","South Dakota","Maryland","Idaho","Montana","North Dakota","Wyoming","Virginia","Missouri","Ohio","Delaware","Arkansas","Minnesota","Rhode Island","Vermont","Kansas","Kentucky","Michigan","Oklahoma","Utah","West Virginia","Maine","Alabama","New Jersey","Alaska","Nebraska"];
 
 
 console.log(imgs.length);
