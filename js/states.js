@@ -57,7 +57,7 @@ function Submit() {
 let count;
 
 count = 0;
-count1 = 1;
+count1 = 0;
 
 function Generate() {
 
