@@ -482,8 +482,7 @@
     }
 
     .hottestul {
-        display: flex;
-        justify-content: center;
+        text-align: center;
     }
 
     .hottestliv{
