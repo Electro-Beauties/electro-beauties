@@ -1,3 +1,7 @@
-var dob = new Date("06/24/2008");
+let dob = new Date("06/24/2008");
 
-var month_diff = Date.now() - dob.getTime();
+let month_diff = Date.now() - dob.getTime();
+
+let bdaycon = document.getElementById("bdaycon");
+
+bdaycon.textContent = "" + month_diff
