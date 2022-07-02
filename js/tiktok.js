@@ -19,6 +19,7 @@ pTotal.textContent = "Number of Videos: " + imgs.length;
 let img;
 let link;
 let pAlt;
+let mainimg;
 
 let Bool = true;
 
@@ -60,20 +61,24 @@ function Generate() {
     img = document.createElement("video"); 
     link = document.createElement("a");
     pAlt = document.createElement("p");
+    mainimg = document.createElement("img");
     
     img.className = "artimg";
+    mainimg.className = "artimg";
     pAlt.className = "pAlt";
     link.ClassName = "linkimg";
 
     count++;
 
     link.setAttribute("href", `/videos/1 (${count}).mp4`);
+    making.setAtteibute("src", `/images/vidimgs/1 (${count}).jpg`);
     img.setAttribute("src", `/videos/1 (${count}).mp4`);
     link.setAttribute("target", "_blank");
     pAlt.textContent = "Video Number: " + count;
 
     link.appendChild(pAlt);
-    container.appendChild(link);
+    mainimg appendChild(link);
+    container.appendChild(mainimg);
     link.appendChild(img);
     //console.log(count);
 }
