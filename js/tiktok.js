@@ -77,7 +77,7 @@ function Generate() {
     pAlt.textContent = "Video Number: " + count;
 
     link.appendChild(pAlt);
-    mainimg appendChild(link);
+    //mainimg appendChild(link);
     container.appendChild(mainimg);
     link.appendChild(img);
     //console.log(count);
