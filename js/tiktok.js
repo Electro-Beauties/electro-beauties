@@ -71,7 +71,7 @@ function Generate() {
     count++;
 
     link.setAttribute("href", `/videos/1 (${count}).mp4`);
-    mainimg.setAtteibute("src", `/images/vidimgs/1 (${count}).jpg`);
+    mainimg.setAttribute("src", `/images/vidimgs/1 (${count}).jpg`);
     img.setAttribute("src", `/videos/1 (${count}).mp4`);
     link.setAttribute("target", "_blank");
     pAlt.textContent = "Video Number: " + count;
