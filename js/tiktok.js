@@ -78,7 +78,8 @@ function Generate() {
 
     link.appendChild(pAlt);
     //mainimg appendChild(link);
-    container.appendChild(mainimg);
+    container.appendChild(link);
+    link.appendChild(mainimg);
     link.appendChild(img);
     //console.log(count);
 }
