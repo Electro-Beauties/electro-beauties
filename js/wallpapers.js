@@ -1,4 +1,5 @@
 const desktopWallpapers = ["","","","","","","","","","","","","","","","","",];
+const mobileWallpapers = ["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""];
 
 let container = document.getElementById("container");
 
