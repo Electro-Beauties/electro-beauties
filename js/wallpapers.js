@@ -23,7 +23,7 @@ function Generate() {
     count++;
 
     link.setAttribute("href", `/images/desktop-wallpaper/${count}.jpg`);
-    img.setAttribute("src", `/images/icons-wallpaper/1 (${count}).jpg`);
+    img.setAttribute("src", `/images/deaktop-wallpaper/${count}.jpg`);
     link.setAttribute("target", "_blank");
     pAlt.textContent = "Image Number: " + count;
 
