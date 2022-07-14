@@ -23,10 +23,22 @@ function Generate() {
 
     count++;
 
+    if (screen.width >= 450) {
+
     link.setAttribute("href", `/images/desktop-wallpaper/${count}.jpg`);
     img.setAttribute("src", `/images/desktop-wallpaper/${count}.jpg`);
     link.setAttribute("target", "_blank");
     pAlt.textContent = "Image Number: " + count;
+
+    }
+    else {
+    
+    link.setAttribute("href", `/images/mobile-wallpaper/${count}.jpg`);
+    img.setAttribute("src", `/images/mobile-wallpaper/${count}.jpg`);
+    link.setAttribute("target", "_blank");
+    pAlt.textContent = "Image Number: " + count;
+
+    }
 
     link.appendChild(pAlt);
     container.appendChild(link);
@@ -34,4 +46,10 @@ function Generate() {
     //console.log(count);
 }
 
+if(screen.width >= 450) {
 desktopWallpapers.forEach(Generate);
+}
+
+else {
+mobileWallpapers.forEach(Generate);
+}
